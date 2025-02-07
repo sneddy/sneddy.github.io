@@ -1,0 +1,49 @@
+baseURL: 'https://sneddy.github.io'
+languageCode: "en-us"
+title: "Anuar Aimoldin"
+theme: "PaperMod"
+
+menu:
+  main:
+    - identifier: "about"
+      name: "About Me"
+      url: "/about/"
+      weight: 10
+    - identifier: "resume"
+      name: "Resume"
+      url: "/resume/"
+      weight: 20
+    - identifier: "public_speaking"
+      name: "Public Speaking"
+      url: "/public_speaking/"
+      weight: 20
+    - identifier: "posts"
+      name: "Blog"
+      url: "/posts/"
+      weight: 30
+
+params:
+  homeInfoParams:
+    Title: "Welcome to my blog!"
+    Content: "My name is Anuar Aimoldin, I am an engineer in deep learning. Trying to post as much as I can :)"
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/sneddy"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/anuar-aimoldin"
+    - name: "email"
+      url: "aimoldin@gmail.com"
+
+  # Show params
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"]
+  ShowReadingTime: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
