@@ -4,7 +4,8 @@ draft = false
 title = 'About'
 +++
 
-# Sneddy Pidor 12
+## Sneddy Pidor 12
+Sneddy - pidor - 12
 
 ## Favorite Food
 - afghani mantu, 
