@@ -5,10 +5,6 @@ theme: "PaperMod"
 
 menu:
   main:
-    - identifier: "about"
-      name: "About Me"
-      url: "/about/"
-      weight: 10
     - identifier: "resume"
       name: "Resume"
       url: "/resume/"
@@ -22,17 +18,22 @@ menu:
       url: "/posts/"
       weight: 30
 
+
 params:
+  customCSS: ["css/custom.css"]
   homeInfoParams:
     Title: "Welcome to my blog!"
-    Content: "My name is Anuar Aimoldin, I am an engineer in deep learning. Trying to post as much as I can :)"
+    Content: "{{< homecontent >}}"
+  
+
   socialIcons:
     - name: "github"
       url: "https://github.com/sneddy"
     - name: "linkedin"
       url: "https://linkedin.com/in/anuar-aimoldin"
-    - name: "email"
-      url: "aimoldin@gmail.com"
+    - name: "mail"
+      url: "mailto:aimoldin@gmail.com"
+
 
   # Show params
   ShowCodeCopyButtons: true

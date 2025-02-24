@@ -1,0 +1,5 @@
+{{ with .Site.GetPage "partials/extra-content.md" }}
+  <div class="extra-content">
+    {{ .Content }}
+  </div>
+{{ end }}
